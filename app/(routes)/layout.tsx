@@ -1,5 +1,5 @@
 import { UserButton } from '@clerk/nextjs'
-import Sidebar from '@components/ui/sidebar'
+import Sidebar from '@components/layout/sidebar'
 import React, { FC } from 'react'
 interface DashboardLayoutProp {
     children: React.ReactNode
@@ -15,7 +15,7 @@ const DashboardLayout: FC<DashboardLayoutProp> = ({children}) => {
             <main>
                 <nav className='bg-slate-100 px-4 py-5 flex items-center justify-between'>
                     <div>
-                    nav
+                        nav
 
                     </div>
 
